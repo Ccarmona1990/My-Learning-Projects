@@ -112,13 +112,13 @@ body {
     left: 4px;
     margin: 0 0 0 0px;
     position: absolute;
-    background-color: rgba(0, 52, 194, 0.196);
     z-index: 2;
     transition: transform 0.3s ease-in-out all;
 }
 
 .projectImgContainer a:hover {
-    background: rgba(224, 233, 240, 0.233);
+
+    background-color: rgba(184, 213, 180, 0.222);
 }
 
 .project img {
