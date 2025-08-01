@@ -2,7 +2,7 @@ export const projects = [
     {
         id: 1,
         name: "Counter",
-        url: "https://example.com/counter",
+        url: "https://ccarmona1990.github.io/counter/",
         img: "./images/counter.png",
         description: "A basic counter application.",
         technologies: ["JavaScript", "HTML", "CSS"]
@@ -10,7 +10,7 @@ export const projects = [
     {
         id: 2,
         name: "Grocery bud",
-        url: "./images/grocery",
+        url: "https://ccarmona1990.github.io/Grocery-bud/",
         img: "./images/groceryBud.png",
         description: "A simple app to manage your grocery list.",
         technologies: ["JavaScript", "HTML", "CSS"]
@@ -26,7 +26,7 @@ export const projects = [
     {
         id: 4,
         name: "Random user",
-        url: "https://example.com/random-user",
+        url: "https://randomuserinfo.netlify.app/",
         img: "./images/randomUser.png",
         description: "Displays random user information from an API.",
         technologies: ["JavaScript", "HTML", "CSS", "Random User API"]
