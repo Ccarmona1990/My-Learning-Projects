@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: 0.3s ease-in-out all;
     scroll-behavior: smooth;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(0, 31, 67);
+    background-color: #a6c9e8;
     color: #333;
     line-height: 1.6;
 }
@@ -82,40 +83,63 @@ body {
 }
 
 .project {
+    text-align: center;
     width: 80vw;
     max-width: 400px;    
     margin: 20px;
     padding: 20px;
-    border: 1px solid #ccc;
     border-radius: 10px;
-    background-color: #a6c9e8;
-    box-shadow: 0px 0px 10px rgba(112, 108, 108, 0.834);
     transition: transform 0.3s ease;
 }
 
-.project img {
+.projectImgContainer {
+    position: relative;
+    margin: 1rem;
+    height: 200px;
+    z-index: 0;
+}
+
+.project img{
     width: 100%;
-    max-width: 300px;
-    max-height: 150px;
+    max-width: 20rem;
+    height: 200px;
+}
+
+.projectImgContainer a {
+    width: 20rem;
+    height: 100%;
+    border-radius: 10px;
+    left: 4px;
+    margin: 0 0 0 0px;
+    position: absolute;
+    background-color: rgba(92, 89, 89, 0.258);
+    z-index: 2;
+    transition: transform 0.3s ease-in-out all;
+}
+
+.projectImgContainer a:hover {
+    background: rgba(224, 233, 240, 0.233);
+}
+
+.project img {
     border-radius: 10px;
     box-shadow: #3a8d87 0px 0px 10px;
-    
 }
+
 
 .project p:first-of-type{
     text-wrap: wrap;
     font-size: 1.2em;
     margin: 10px 0;
     text-indent: 5%;
-    color: #3a8d87;
+    color: #48647f;
 }
 
 .project p:last-of-type {
     font-size: 1em;
     color: #555;
     margin: 5px;
-    background-color: rgba(1, 146, 129, 0.852);
-    color: white;
+    color: black;
     padding: 5px;
     border-radius: 5px;
 }

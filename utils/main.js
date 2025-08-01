@@ -15,11 +15,16 @@ export function main() {
         return `
         <div class="project" id="${id}">
             <h2>${name}</h2>
+
+            <section class="projectImgContainer">
+            <img src="${img}" alt="${name} image" />
             <a href="${url}" target="_blank">
-                <img src="${img}" alt="${name} image" />
             </a>
+            
+            </section>
+            
             <p>${description}</p>
-            <p>Technologies: ${technologies.join(', ')}</p> 
+            <p>${technologies.join(', ')}</p> 
         </div>
         `});
     projectList = projectList.join(' ');
