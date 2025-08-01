@@ -112,7 +112,7 @@ body {
     left: 4px;
     margin: 0 0 0 0px;
     position: absolute;
-    background-color: rgba(92, 89, 89, 0.258);
+    background-color: rgba(0, 52, 194, 0.196);
     z-index: 2;
     transition: transform 0.3s ease-in-out all;
 }
