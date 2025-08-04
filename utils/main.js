@@ -18,7 +18,7 @@ export function main() {
 
             <section class="projectImgContainer">
             <img src="${img}" alt="${name} image" />
-            <a href="${url}" target="_blank">
+            <a href="${url}">
             </a>
             
             </section>
