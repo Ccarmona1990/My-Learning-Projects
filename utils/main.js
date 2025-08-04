@@ -6,7 +6,7 @@ import { isLoading } from './utilities.js';
 export function main() {
     const main = get('main'); // gets the element with id 'main'
     isLoading(); // removes loading spinner
-     
+    
     // dynamically creates a list of projects
     let projectList = projects.map(({ id, name, url, img, description, technologies }) => {
         
@@ -31,3 +31,4 @@ export function main() {
     
     main.innerHTML = ` <section class="projectList"> ${projectList} <section>`;
 }
+

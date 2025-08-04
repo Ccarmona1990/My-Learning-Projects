@@ -13,9 +13,18 @@ body {
     line-height: 1.6;
 }
 
-.hide {
-    display: none;
+
+.loading{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 100px 20px;
 }
+
+.hide {
+display: none;
+}
+
 
 /* header */
 
@@ -191,3 +200,6 @@ footer a:hover {
         gap: 20p;
     }
 }
+
+    /* End of Media query */
+
