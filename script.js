@@ -1,3 +1,4 @@
+import { darkModeFunctionality } from "./Darkmode Feature/darkMode.js";
 import { main } from "./utils/main.js";
 
     const zeldagamesAPI_url = 'https://zeldagammes-api.onrender.com/zelda_games';
@@ -6,9 +7,10 @@ import { main } from "./utils/main.js";
         try {
             const response = await fetch(zeldagamesAPI_url);
             const data = await response.json(); 
-            console.log(data);
+            //console.log(data);
         } catch (error) {
             console.log(error);
-        } } 
+        } }
+    darkModeFunctionality();
     getZeldaGames(); 
     main();
