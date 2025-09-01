@@ -4,17 +4,16 @@ import { isLoading, observer } from './utilities.js';
 
 
 export function main() {
-    const header = get('header'); // gets the element with id 'header'
-    const main = get('main'); // gets the element with id 'main'
+    const header = get('header'); 
+    const main = get('main'); 
     isLoading(); // removes loading spinner
     
-    observer.observe(header); // observes the header element for intersection
-    observer.observe(main); // observes the main element for intersection
+    // observes elements for intersection and triggers animation
+    observer.observe(header); 
+    observer.observe(main); 
 
     // dynamically creates a list of projects
     let projectList = projects.map(({ id, name, url, img, description, technologies }) => {
-        
-        //console.log(id, name, url, img, description, technologies);
         
         return `
         <div class="project" id="${id}">
