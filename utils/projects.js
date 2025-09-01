@@ -75,7 +75,7 @@ export const projects = [
         name: "claro Component",
         url: "https://claro-test.netlify.app/",
         img: "./images/claroTest.png",
-        description: "Test project for an interview at claro. It demonstrates component-based UI development, and responsive design using modern React tools and libraries. The project highlights skills in frontend architecture, state management, and rapid prototyping.",
+        description: "Test project for interview at claro. It demonstrates component-based UI development, and responsive design using modern React. The project highlights skills in frontend architecture, state management, and rapid prototyping.",
         technologies: ["JavaScript", "HTML", "CSS", "React", "bootstrap", "Sass, redux, storybook"]
     }
 ];

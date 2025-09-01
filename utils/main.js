@@ -17,14 +17,17 @@ export function main() {
             <h2>${name}</h2>
 
             <section class="projectImgContainer">
-            <img src="${img}" alt="${name} image" />
-            <a href="${url}">
-            </a>
-            
-            </section>
-            
-            <p>${description}</p>
+                <img src="${img}"
+                alt="${name} image"/>
+                
+                <div class="layer">
+                    <p>${description}</p>
+                    
+                    <a href="${url}"></a>
+                    </div>
+                    </section>
             <p>${technologies.join(', ')}</p> 
+            
         </div>
         `});
     projectList = projectList.join(' ');
