@@ -12,9 +12,10 @@
 :root {
     --background-color: #a6c9e8;
     --base-variant: #f0f0f0;
-    --text-color: #111528;
+    --text-color: #141722;
     --secondary-color: rgba(1, 146, 129, 0.852);
     --primary-color: #3a435d;
+    --modal-background: linear-gradient(rgba(255, 255, 255, 0.147), #00eeff);
 }
 
 
@@ -138,7 +139,7 @@ display: none;
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.1),#00eeff);
+    background: var(--modal-background);
     position: absolute;
     border-radius: 10px;
     left: 0;
@@ -178,7 +179,7 @@ display: none;
 
 .projectImgContainer a:hover {
 
-    background-color: rgba(121, 199, 111, 0.222);
+    background-color: #aedcae26;
 }
 
 .project img {
@@ -187,7 +188,8 @@ display: none;
 }
 
 .project p:last-of-type {
-    font-size: 1em;
+    font-size: 0.9em;
+    font-weight: bolder;
     margin: 5px;
     color: var(--text-color);
     padding: 5px;

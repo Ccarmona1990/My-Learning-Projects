@@ -15,7 +15,10 @@
     --text-color: #ffffff;
     --secondary-color: #a4a5b8;
     --primary-color: #3a435d;
+    --modal-background: linear-gradient(rgba(0, 0, 0, 0.1), #00818b);
 } 
+
+/*linear-gradient(rgba(0, 0, 0, 0.1), #00818b)*/
 
 #theme-switch{
     border: 1px solid var(--text-color);
